@@ -1,8 +1,10 @@
 body {
   background-color: black;
+  background-image: url('../images/site/starsbg.gif');
   color: DarkSeaGreen;
-  font-family: Helvetica, Arial;
+  font-family: Courier, Arial;
 }
+
 #small {
   font-size: smaller;
 }
