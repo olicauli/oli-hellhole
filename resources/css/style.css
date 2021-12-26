@@ -63,19 +63,22 @@ a:active {
 #welcomebox {
   text-align: center;
   display: inline-block;
-  float: left;
+  float: center;
   width: 250px;
   height: 400px;
   left: 100%;
+  /*
   border-style: dotted;
   border-color: DarkSeaGreen;
   border-width: 2px;
+  */
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
   padding-bottom: 100px;
 }
 
+/*
 #interestbox {
   border-style: dotted;
   border-color: DarkSeaGreen;
@@ -123,6 +126,7 @@ footer {
   max-width: 100%;
   display: block;
 }
+*/
 
 #blognav ul li {
   display: inline;
@@ -153,6 +157,11 @@ footer {
 
 .shake {
   animation: shake 0.2s;
+  animation-iteration-count: infinite;
+}
+
+.dance {
+  animation: shake 1s;
   animation-iteration-count: infinite;
 }
 
