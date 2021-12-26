@@ -128,6 +128,45 @@ footer {
 }
 */
 
+#updatelog {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 40px;
+  overflow-y: scroll;
+  border: dashed;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+
+#updatelog p {
+  font-size: smaller;
+  color: Gold;
+  text-align: left;
+}
+
+#updatelog h4 {
+  font-size: smaller;
+  color: HotPink;
+  text-align: center;
+  line-height: 20%;
+}
+#updatelog h5 {
+  font-size: smaller;
+  color: Gold;
+  text-align: center;
+  line-height: 20%;
+}
+
+#updatelog li {
+  font-size: smaller;
+  line-height: 80%;
+  color: HotPink;
+  text-align: left;
+}
+
 #blognav ul li {
   display: inline;
 }
