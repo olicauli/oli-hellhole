@@ -1,6 +1,7 @@
 body {
   background-color: black;
   background-image: url('../images/site/animatedstars.gif');
+  text-align: center;
   color: DarkSeaGreen;
   font-family: Courier, Arial;
 }
@@ -39,16 +40,88 @@ a:active {
 }
 
 #main_content {
-  display: inline;
-  width: 860px;
+  display: block;
+  text-align: center;
+  width: 881px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
   max-width: 100%;
 }
 
-#indexbox {
+#centerbox {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 250px;
   height: 400px;
   padding-top: 20px;
   padding-bottom: 100px;
+}
+
+#welcomebox {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 400px;
+  left: 100%;
+  border-style: dotted;
+  border-color: DarkSeaGreen;
+  border-width: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#interestbox {
+  border-style: dotted;
+  border-color: DarkSeaGreen;
+  border-width: 2px;
+  margin-left: 30px;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  width: 62%;
+  float: left;
+}
+
+#interestbox li {
+  color: DarkSeaGreen;
+}
+
+#updatebox {
+  display: inline-block;
+  width: 200px;
+  float: right;
+  height: 318px;
+  border-style: dotted;
+  border-width: 2px;
+  margin-right: 8px;
+  margin-top: 20px;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+
+#extrabox {
+  display: inline-block;
+  float: left;
+  border-style: dotted;
+  border-width: 2px;
+  width: 315px;
+  height: 298px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
 
 #blognav ul li {
