@@ -5,6 +5,23 @@ body {
   font-family: Courier, Arial;
 }
 
+nav {
+  margin-bottom: 10px;
+  position: sticky;
+}
+
+h1 {
+  color: Yellow;
+}
+
+h4 {
+  color: Gold;
+}
+
+li {
+  color: Gold;
+}
+
 a:link {
   color: HotPink;
 }
@@ -19,6 +36,22 @@ a:visited {
 
 a:active {
   color: GoldenRod;
+}
+
+#main_content {
+  display: inline;
+  width: 860px;
+  max-width: 100%;
+}
+
+#blognav ul li {
+  display: inline;
+}
+
+#blognav li {
+  list-style-type: none; 
+  padding-left: 0px; 
+  text-align: center;
 }
 
 #warning
@@ -38,8 +71,13 @@ a:active {
   transform: rotate(10deg) translateY(5px);
 }
 
-.shake:hover {
-  animation: shake 0.5s;
+.shake {
+  animation: shake 0.2s;
+  animation-iteration-count: infinite;
+}
+
+.shakeh:hover {
+  animation: shake 0.2s;
   animation-iteration-count: infinite;
 }
 
