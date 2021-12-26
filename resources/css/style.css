@@ -44,6 +44,13 @@ a:active {
   max-width: 100%;
 }
 
+#indexbox {
+  width: 250px;
+  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
 #blognav ul li {
   display: inline;
 }

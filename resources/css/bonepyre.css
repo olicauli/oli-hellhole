@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+  background-color: black;
+  background-image: url("../images/site/blackgranite.gif");
+  color: white;
 }
 
 
