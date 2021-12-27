@@ -40,30 +40,20 @@ a:active {
 }
 
 #main_content {
-  display: block;
+  display: inline-block;
   text-align: center;
   width: 881px;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  height: 700px;
+  overflow-y: auto;
+  overflow-x: hidden;
   max-width: 100%;
 }
 
 #centerbox {
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  height: 400px;
-  padding-top: 20px;
-  padding-bottom: 100px;
-}
-
-#welcomebox {
-  text-align: center;
   display: inline-block;
-  float: center;
   width: 250px;
   height: 400px;
   left: 100%;
@@ -72,10 +62,22 @@ a:active {
   border-color: DarkSeaGreen;
   border-width: 2px;
   */
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 100px;
+  margin: 25px 10px 0px 0px;
+}
+
+#welcomebox {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 400px;
+  left: 100%;
+  /*
+  border-style: dotted;
+  border-color: DarkSeaGreen;
+  border-width: 2px;
+  */
+  margin: 25px 10px 100px 100px;
 }
 
 /*
@@ -129,27 +131,29 @@ footer {
 */
 
 #updatelog {
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: 40px;
+  width: 190px;
+  height: 250px;
   overflow-y: scroll;
   border: dashed;
   border-width: 1px;
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 8px;
+  scrollbar-color: HotPink;
 }
 
 #updatelog p {
   font-size: smaller;
-  color: Gold;
+  color: DarkSeaGreen;
   text-align: left;
 }
 
 #updatelog h4 {
   font-size: smaller;
-  color: HotPink;
+  color: Gold;
   text-align: center;
   line-height: 20%;
 }
@@ -165,6 +169,16 @@ footer {
   line-height: 80%;
   color: HotPink;
   text-align: left;
+}
+
+#updateheader {
+  display: inline-block;
+  width: 250px;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #blognav ul li {
