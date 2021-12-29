@@ -1,0 +1,24 @@
+<div id="header">
+    {% if page.home %}
+        {% capture display_frog %}<img class="shakeh" src="/resources/images/graphics-frogs-557168.gif">{% endcapture %}
+    {% endif %}
+    
+    {% if page.uses_img_header %}
+        {{ display_frog }}
+        <img class="shake" src="{{ page.file_prefix }}/resources/images/site/{{ page.header_file }}">
+        {{ display_frog }}
+    {% else %}
+        <h1 class="shake">{{ page.header_text }}</h1>
+    {% endif %}
+    
+    <br>
+    <img src="{% link /resources/images/site/greenline.png %}">
+    <nav>
+        <a href="{% link index.html %}"><img class="button" src="{% link /resources/images/buttons/homeproto4.gif %}"></a>
+        <a href="{% link about.html %}"><img class="button" src="{% link /resources/images/buttons/aboutproto.gif %}"></a>
+        <a href="{% link contact.html %}"><img class="button" src="{% link /resources/images/buttons/contactproto.gif %}"></a>
+        <a href="{% link blogs.html %}"><img class="button" src="{% link /resources/images/buttons/blogsproto.gif %}"></a>
+        <a href="{% link projects.html %}"><img class="button" src="{% link /resources/images/buttons/projectsproto.gif %}"></a>
+    </nav>
+    <img src="{% link /resources/images/site/greenline.png %}">
+</div>

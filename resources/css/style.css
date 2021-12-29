@@ -39,7 +39,12 @@ a:active {
   color: GoldenRod;
 }
 
-#main_content {
+#header h1{
+  font-size:4em;
+  line-height:0px;
+}
+
+.main_content {
   display: inline-block;
   text-align: center;
   width: 881px;
@@ -51,7 +56,12 @@ a:active {
   max-width: 100%;
 }
 
-#centerbox {
+#dajiahao {
+  color:HotPink; 
+  margin-left:20px;
+}
+
+.centerbox {
   text-align: center;
   display: inline-block;
   width: 250px;
@@ -65,7 +75,11 @@ a:active {
   margin: 25px 10px 0px 0px;
 }
 
-#welcomebox {
+.centerbox span {
+  color: HotPink;
+}
+
+.welcomebox {
   text-align: center;
   display: inline-block;
   float: left;
@@ -80,57 +94,15 @@ a:active {
   margin: 25px 10px 100px 100px;
 }
 
-/*
-#interestbox {
-  border-style: dotted;
-  border-color: DarkSeaGreen;
-  border-width: 2px;
-  margin-left: 30px;
-  text-align: right;
-  padding: 10px 10px 10px 10px;
-  width: 62%;
-  float: left;
+.messagebox h4{
+  color: HotPink;
 }
 
-#interestbox li {
-  color: DarkSeaGreen;
+.updateheader h4{
+  color: HotPink;
 }
 
-#updatebox {
-  display: inline-block;
-  width: 200px;
-  float: right;
-  height: 318px;
-  border-style: dotted;
-  border-width: 2px;
-  margin-right: 8px;
-  margin-top: 20px;
-  overflow-wrap: break-word;
-  overflow-y: scroll;
-}
-
-#extrabox {
-  display: inline-block;
-  float: left;
-  border-style: dotted;
-  border-width: 2px;
-  width: 315px;
-  height: 298px;
-  margin-left: 30px;
-  margin-top: 20px;
-  padding: 10px 10px 10px 10px;
-}
-
-footer {
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-*/
-
-#updatelog {
+.updatelog {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -142,36 +114,35 @@ footer {
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 8px;
-  scrollbar-color: HotPink;
 }
 
-#updatelog p {
+.updatelog p {
   font-size: smaller;
   color: DarkSeaGreen;
   text-align: left;
 }
 
-#updatelog h4 {
+.updatelog h4 {
   font-size: smaller;
   color: Gold;
   text-align: center;
   line-height: 20%;
 }
-#updatelog h5 {
+.updatelog h5 {
   font-size: smaller;
   color: Gold;
   text-align: center;
   line-height: 20%;
 }
 
-#updatelog li {
+.updatelog li {
   font-size: smaller;
   line-height: 80%;
   color: HotPink;
   text-align: left;
 }
 
-#updateheader {
+.updateheader {
   display: inline-block;
   width: 250px;
 }
@@ -181,22 +152,34 @@ footer {
   margin-right: auto;
 }
 
-#blognav ul li {
+#footer p {
+font-size: smaller;
+}
+
+.blognav ul li {
   display: inline;
 }
 
-#blognav li {
+.blognav li {
   list-style-type: none; 
   padding-left: 0px; 
   text-align: center;
 }
 
-#warning
+.blogentry h4 {
+  color: HotPink;
+}
+
+.blogentry .date{
+  color: HotPink;
+}
+
+.warning
 {
   color: red;
 }
 
-#small {
+.small {
   font-size: smaller;
 }
 
@@ -221,6 +204,35 @@ footer {
 .shakeh:hover {
   animation: shake 0.2s;
   animation-iteration-count: infinite;
+}
+
+.new::before {
+  content: url("../images/new.gif");
+  margin-right: 10px;
+}
+.new::after {
+  content: url("../images/new.gif");
+  margin-left: 10px;
+}
+
+.books::before {
+  content: url("../images/Simple_book.gif");
+  margin-right: 10px;
+}
+
+.books::after {
+  content: url("../images/Simple_book.gif");
+  margin-left: 10px;
+}
+
+.frogs::before {
+  content: url("../images/frogbounce.gif");
+  margin-right: 5px;
+}
+
+.frogs::after {
+  content: url("../images/frogbounce.gif");
+  margin-left: 5px;
 }
 
 @keyframes shake {
