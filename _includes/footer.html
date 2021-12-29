@@ -1,0 +1,25 @@
+<div id="footer">
+    <footer>
+        <img src="{% link resources/images/site/greenline.png %}">
+        {% unless zh or page.home %}
+        <p>website lovingly handmade by olicauli, 2021-present</p>
+        {% endunless %}
+        
+        {% if zh %}
+        <p "small">这个网页给奥利写了 2021年-今年</p>
+        {% endif %}
+        
+        {% if page.home %}
+            <p>most gifs from a. n. lucas, gifcities.org or netanimations.net</p>
+            <img src="{% link resources/images/webbuttons/olihellhole_button4.gif %}">
+            <br>
+            <img src="{% link resources/images/webbuttons/bookmark_this_page.gif %}">
+            <img src="{% link resources/images/webbuttons/site_best_viewed_with_monitor.gif %}">
+            <img src="{% link resources/images/webbuttons/best_viewed_with_eyes.gif %}">
+            <a href="https://neocities.org/"><img class="button" src="{% link resources/images/webbuttons/neocities-60.gif %}"></a>
+            <a href="https://www.linux.org/"><img class="button" src="{% link resources/images/webbuttons/linux_now.gif %}"></a>
+            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-32849-05"><img class="button" alt="Guestbook" border="0" src="http://extras3.smartgb.com/b/gb_80x40.gif" width="80" height="40"></a>
+        {% endif %}
+        <img src="{% link /resources/images/site/greenline.png %}">
+    </footer>
+</div>
