@@ -44,7 +44,7 @@ a:active {
   line-height:0px;
 }
 
-#main_content {
+.main_content {
   display: inline-block;
   text-align: center;
   width: 881px;
@@ -61,7 +61,7 @@ a:active {
   margin-left:20px;
 }
 
-#centerbox {
+.centerbox {
   text-align: center;
   display: inline-block;
   width: 250px;
@@ -75,11 +75,11 @@ a:active {
   margin: 25px 10px 0px 0px;
 }
 
-#centerbox span {
+.centerbox span {
   color: HotPink;
 }
 
-#welcomebox {
+.welcomebox {
   text-align: center;
   display: inline-block;
   float: left;
@@ -94,15 +94,15 @@ a:active {
   margin: 25px 10px 100px 100px;
 }
 
-#messagebox h4{
+.messagebox h4{
   color: HotPink;
 }
 
-#updateheader h4{
+.updateheader h4{
   color: HotPink;
 }
 
-#updatelog {
+.updatelog {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -116,33 +116,33 @@ a:active {
   padding-bottom: 8px;
 }
 
-#updatelog p {
+.updatelog p {
   font-size: smaller;
   color: DarkSeaGreen;
   text-align: left;
 }
 
-#updatelog h4 {
+.updatelog h4 {
   font-size: smaller;
   color: Gold;
   text-align: center;
   line-height: 20%;
 }
-#updatelog h5 {
+.updatelog h5 {
   font-size: smaller;
   color: Gold;
   text-align: center;
   line-height: 20%;
 }
 
-#updatelog li {
+.updatelog li {
   font-size: smaller;
   line-height: 80%;
   color: HotPink;
   text-align: left;
 }
 
-#updateheader {
+.updateheader {
   display: inline-block;
   width: 250px;
 }
@@ -156,30 +156,30 @@ a:active {
 font-size: smaller;
 }
 
-#blognav ul li {
+.blognav ul li {
   display: inline;
 }
 
-#blognav li {
+.blognav li {
   list-style-type: none; 
   padding-left: 0px; 
   text-align: center;
 }
 
-#blogentry h4 {
+.blogentry h4 {
   color: HotPink;
 }
 
-#blogentry .date{
+.blogentry .date{
   color: HotPink;
 }
 
-#warning
+.warning
 {
   color: red;
 }
 
-#small {
+.small {
   font-size: smaller;
 }
 
@@ -204,6 +204,35 @@ font-size: smaller;
 .shakeh:hover {
   animation: shake 0.2s;
   animation-iteration-count: infinite;
+}
+
+.new::before {
+  content: url("../images/new.gif");
+  margin-right: 10px;
+}
+.new::after {
+  content: url("../images/new.gif");
+  margin-left: 10px;
+}
+
+.books::before {
+  content: url("../images/Simple_book.gif");
+  margin-right: 10px;
+}
+
+.books::after {
+  content: url("../images/Simple_book.gif");
+  margin-left: 10px;
+}
+
+.frogs::before {
+  content: url("../images/frogbounce.gif");
+  margin-right: 5px;
+}
+
+.frogs::after {
+  content: url("../images/frogbounce.gif");
+  margin-left: 5px;
 }
 
 @keyframes shake {

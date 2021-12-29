@@ -7,7 +7,6 @@ defaults:
       layout: "default"
       title: "changethis"
     home: false
-    includes_update_log: false
     uses_img_header: false
     file_prefix: .
-    header_file: ""
+    header_file: "dfsf"

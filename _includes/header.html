@@ -3,13 +3,13 @@
         {% capture display_frog %}<img class="shakeh" src="/resources/images/graphics-frogs-557168.gif">{% endcapture %}
     {% endif %}
     
-    {% unless page.header_file == "" %}
+    {% if page.uses_img_header %}
         {{ display_frog }}
         <img class="shake" src="{{ page.file_prefix }}/resources/images/site/{{ page.header_file }}">
         {{ display_frog }}
     {% else %}
         <h1 class="shake">{{ page.header_text }}</h1>
-    {% endunless %}
+    {% endif %}
     
     <br>
     <img src="{% link /resources/images/site/greenline.png %}">
