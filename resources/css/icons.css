@@ -1,0 +1,35 @@
+/*this css is for:*/
+/*commonly reused images, gifs, images*/
+/*that should be placed before and after text,*/
+/*etc*/
+
+.books::after
+{
+	content: url("../images/Simple_book.gif");
+	margin-left: 10px;
+}
+.books::before
+{
+	content: url("../images/Simple_book.gif");
+	margin-right: 10px;
+}
+.frogs::after
+{
+	content: url("../images/frogbounce.gif");
+	margin-left: 5px;
+}
+.frogs::before
+{
+	content: url("../images/frogbounce.gif");
+	margin-right: 5px;
+}
+.new::after
+{
+	content: url("../images/new.gif");
+	margin-left: 10px;
+}
+.new::before
+{
+	content: url("../images/new.gif");
+	margin-right: 10px;
+}
