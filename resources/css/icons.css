@@ -30,6 +30,10 @@
 .greenline {
 	content: url(../images/site/greenline.png);
 }
+
+.linksdivider {
+	content: url(../images/A_14links.gif);
+}
 /*END OF DIVIDERS*/
 
 .books::after
@@ -57,12 +61,15 @@
 	content: url("../images/frogbounce.gif");
 	margin-right: 5px;
 }
-.new::after
+.new {
+	content: url("../images/new.gif");
+}
+.newwrap::after
 {
 	content: url("../images/new.gif");
 	margin-left: 10px;
 }
-.new::before
+.newwrap::before
 {
 	content: url("../images/new.gif");
 	margin-right: 10px;
