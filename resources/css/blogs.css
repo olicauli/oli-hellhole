@@ -1,0 +1,22 @@
+/*written by olicauli*/
+/*this css is for:*/
+/*all styling related to blog/project pages*/
+
+.blogentry .date
+{
+	color: HotPink;
+}
+.blogentry h4
+{
+	color: HotPink;
+}
+.blognav li
+{
+	list-style-type: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.blognav ul li
+{
+	display: inline;
+}

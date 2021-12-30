@@ -1,0 +1,80 @@
+/*written by olicauli*/
+/*this css is for:*/
+/*all styling specific to the home page,*/
+/*which is currently index.html.*/
+
+#dajiahao
+{
+	color: HotPink;
+	margin-left: 20px;
+}
+.messagebox h4
+{
+	color: HotPink;
+}
+.updateheader
+{
+	display: inline-block;
+	width: 250px;
+}
+.updateheader h4
+{
+	color: HotPink;
+}
+.updatelog
+{
+	border: dashed;
+	border-width: 1px;
+	display: inline-block;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	padding-top: 0px;
+	width: 190px;
+}
+.updatelog h4
+{
+	color: Gold;
+	font-size: smaller;
+	line-height: 20%;
+	text-align: center;
+}
+.updatelog h5
+{
+	color: Gold;
+	font-size: smaller;
+	line-height: 20%;
+	text-align: center;
+}
+.updatelog li
+{
+	color: HotPink;
+	font-size: smaller;
+	line-height: 80%;
+	text-align: left;
+}
+.updatelog p
+{
+	color: DarkSeaGreen;
+	font-size: smaller;
+	text-align: left;
+}
+
+.welcomebox
+{
+	display: inline-block;
+	float: left;
+	height: 400px;
+	left: 100%;
+	margin: 25px 10px 100px 100px;
+	text-align: center;
+	width: 250px;
+}
+
+.welcomebox span {
+	font-size: smaller;
+	color: Gold;
+}
