@@ -3,6 +3,35 @@
 /*that should be placed before and after text,*/
 /*etc*/
 
+/*HEADER ICONS*/
+.aboutnav {
+	content: url("../images/buttons/aboutproto.gif");
+}
+
+.blogsnav {
+	content: url("../images/buttons/blogsproto.gif");
+}
+.contactnav {
+	content: url("../images/buttons/contactproto.gif");
+}
+.headerfrogs {
+	content: url("../images/graphics-frogs-557168.gif");
+}
+.homenav {
+	content: url("../images/buttons/homeproto4.gif");
+}
+.projectsnav {
+	content: url("../images/buttons/projectsproto.gif");
+}
+
+/*EMD OF HEADER ICONS*/
+
+/*DIVIDERS*/
+.greenline {
+	content: url(../images/site/greenline.png);
+}
+/*END OF DIVIDERS*/
+
 .books::after
 {
 	content: url("../images/Simple_book.gif");
@@ -13,6 +42,11 @@
 	content: url("../images/Simple_book.gif");
 	margin-right: 10px;
 }
+
+.frogbounce {
+	content: url("../images/frogbounce.gif");
+}
+
 .frogs::after
 {
 	content: url("../images/frogbounce.gif");
@@ -32,4 +66,17 @@
 {
 	content: url("../images/new.gif");
 	margin-right: 10px;
+}
+
+.sparkles {
+	content: url("../images/sparkles.gif");
+}
+
+.sparkleswrap::after {
+	content: url("../images/sparkles.gif");
+	margin-left: 5px;
+}
+.sparkleswrap::before {
+	content: url("../images/sparkles.gif");
+	margin-right: 5px;
 }
