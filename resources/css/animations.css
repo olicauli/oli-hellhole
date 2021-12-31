@@ -2,13 +2,13 @@
 /*this css is for:*/
 /*button press animations, shaking animations, etc*/ 
 
-.button:active
-{
-	transform: rotate(10deg) translateY(5px);
-}
 .button:hover
 {
 	transform: rotate(10deg);
+}
+.button:active
+{
+	transform: rotate(10deg) translateY(5px);
 }
 .dance
 {
