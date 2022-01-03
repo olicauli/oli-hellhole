@@ -1,0 +1,13 @@
+.collapsible {
+    color: HotPink;
+    text-decoration: underline;
+}
+.collapsible:hover {
+    color: Gold;
+}
+.collapsible:active {
+    color: IndianRed;
+}
+.collapse_content {
+    display: none;
+}

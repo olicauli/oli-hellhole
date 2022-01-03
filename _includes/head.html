@@ -10,4 +10,8 @@
     <link href="{% link resources/css/home.css %}" rel="stylesheet" type="text/css" media="all">
     <link href="{% link resources/css/icons.css %}" rel="stylesheet" type="text/css" media="all">
     <link href="{% link resources/css/animations.css %}" rel="stylesheet" type="text/css" media="all">
+    {% if page.includes_scripts %}
+        <link href="{% link resources/css/scripts.css %}" rel="stylesheet" type="text/css" media="all">
+        <script src="{% link resources/scripts/main.js %}"></script>
+    {% endif %}
 </head>

@@ -10,3 +10,4 @@ defaults:
     uses_img_header: false
     file_prefix: .
     header_file: "dfsf"
+    includes_scripts: true
