@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function()
     //console.log("dom content loaded");
     let contentDisplayed = false;
     let button = document.querySelector(".collapsible");
-    console.log("button variable defined");
+    //console.log("button variable defined");
     
     let toggleContent = function()
     {
