@@ -1,12 +1,21 @@
 <div class="footer">
     <footer>
+        {% if page.home %}
+        <div class="neighbor-box">
+            <i class="neighbors"></i>
+            <br>
+            <a href="https://remsite.neocities.org/" target="_blank" rel="noopener noreferrer">remsite</a>
+            <br>
+        </div>
+        {% endif %}
         <i class="greenline"></i>
+        <br>
         {% unless zh %}
-        <p>website lovingly coded by olicauli, 2021-present</p>
+            <p>website lovingly coded by olicauli, 2021-present</p>
         {% endunless %}
         
         {% if zh %}
-        <p>这个网页给奥利写了 2021年-今年</p>
+            <p>这个网页给奥利写了 2021年-今年</p>
         {% endif %}
         
         {% if page.home %}
@@ -16,9 +25,9 @@
             <img src="{% link resources/images/webbuttons/bookmark_this_page.gif %}">
             <img src="{% link resources/images/webbuttons/site_best_viewed_with_monitor.gif %}">
             <img src="{% link resources/images/webbuttons/best_viewed_with_eyes.gif %}">
-            <a href="https://neocities.org/"><img class="button" src="{% link resources/images/webbuttons/neocities-60.gif %}"></a>
-            <a href="https://www.linux.org/"><img class="button" src="{% link resources/images/webbuttons/linux_now.gif %}"></a>
-            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-32849-05"><img class="button" alt="Guestbook" border="0" src="http://extras3.smartgb.com/b/gb_80x40.gif" width="80" height="40"></a>
+            <a href="https://neocities.org/" target="_blank" rel="noopener noreferrer"><img class="button" src="{% link resources/images/webbuttons/neocities-60.gif %}"></a>
+            <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer"><img class="button" src="{% link resources/images/webbuttons/linux_now.gif %}"></a>
+            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-32849-05" target="_blank" rel="noopener noreferrer"><img class="button" alt="Guestbook" border="0" src="http://extras3.smartgb.com/b/gb_80x40.gif" width="80" height="40"></a>
         {% endif %}
         <br>
         <i class="greenline"></i>

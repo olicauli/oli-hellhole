@@ -15,12 +15,24 @@
 .contactnav {
 	content: url("../images/buttons/contactproto.gif");
 }
+
+.enterbutton {
+	margin-top: 40px;
+	content: url("../images/buttons/enter.gif");
+	width:250px;
+}
+
 .headerfrogs {
 	content: url("../images/graphics-frogs-557168.gif");
 }
 .homenav {
 	content: url("../images/buttons/homeproto4.gif");
 }
+
+.neighbors {
+	content: url('../images/buttons/neighbors.gif');
+}
+
 .projectsnav {
 	content: url("../images/buttons/projectsproto.gif");
 }
