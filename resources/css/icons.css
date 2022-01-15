@@ -24,6 +24,22 @@
 .headerfrogs {
 	content: url("../images/graphics-frogs-557168.gif");
 }
+
+.heartbounce {
+	content: url("../images/heartbounce.gif");
+}
+
+.hearts::after
+{
+	content: url("../images/heartbounce.gif");
+	margin-left: 5px;
+}
+.hearts::before
+{
+	content: url("../images/heartbounce.gif");
+	margin-right: 5px;
+}
+
 .homenav {
 	content: url("../images/buttons/homeproto4.gif");
 }
