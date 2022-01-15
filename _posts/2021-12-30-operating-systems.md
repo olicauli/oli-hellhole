@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+title: operating systems
 ---
 <p>my computer now has three different operating systems on it! god himself
 trembles at my hubris.</p>

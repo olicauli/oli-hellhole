@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+title: hot minute
 ---
 <p>yoooooooo!!!</p>
 <p>it's been a hot minute!</p>
@@ -17,4 +18,3 @@ layout: post
 <p><span>cons:</span> <span style="color:DarkSeaGreen" class="frogs">My Waking Life Has Been Consumed by making a discord bot</span></p>
 <p>anyways coming back and looking at all this text crammed into one file is making me cry. once my brain
       unfixates itself i swear im gonna come back and refactor all the blogs >:)</p>
-<h4>--*-*-*-*--</h4>

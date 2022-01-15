@@ -10,10 +10,12 @@
 {
 	color: HotPink;
 }
-.blognav li
+.blognav ul
 {
 	list-style-type: none;
+	display: inline;
 	padding-left: 0px;
+	margin-left: 0;
 	text-align: center;
 }
 .blognav ul li

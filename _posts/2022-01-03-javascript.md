@@ -1,5 +1,7 @@
 ---
-layout: post
+layout: default
+title: javascript
+includes_scripts: true
 ---
 <p>hello! it's been a few days! ya man got hit by a bit of a depressive episode but i think 
    i am doing a bit better today.</p>

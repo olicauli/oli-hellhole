@@ -1,3 +1,4 @@
+/*
 document.addEventListener("DOMContentLoaded", function()
 {
     //console.log("dom content loaded");
@@ -26,3 +27,4 @@ document.addEventListener("DOMContentLoaded", function()
     button.addEventListener('click', toggleContent);
 });
 
+*/
