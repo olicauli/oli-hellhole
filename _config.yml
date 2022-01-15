@@ -6,6 +6,12 @@ defaults:
     values:
       layout: "default"
       title: "changethis"
+      
+    collections:
+      updatelog:
+        layout: "none"
+        output: true
+        permalink: /updates/:name
     home: false
     enter: false
     permalink: /:title/
