@@ -6,112 +6,112 @@
 
 /*HEADER ICONS*/
 .aboutnav {
-	content: url("../images/buttons/aboutproto.gif");
+	content: url("../assets/images/buttons/aboutproto.gif");
 }
 
 .blogsnav {
-	content: url("../images/buttons/blogsproto.gif");
+	content: url("../assets/images/buttons/blogsproto.gif");
 }
 .contactnav {
-	content: url("../images/buttons/contactproto.gif");
+	content: url("../assets/images/buttons/contactproto.gif");
 }
 
 .enterbutton {
-	content: url("../images/buttons/enter.gif");
+	content: url("../assets/images/buttons/enter.gif");
 	width:250px;
 }
 
 .headerfrogs {
-	content: url("../images/graphics-frogs-557168.gif");
+	content: url("../assets/images/graphics-frogs-557168.gif");
 }
 
 .heartbounce {
-	content: url("../images/heartbounce.gif");
+	content: url("../assets/images/heartbounce.gif");
 }
 
 .hearts::after
 {
-	content: url("../images/heartbounce.gif");
+	content: url("../assets/images/heartbounce.gif");
 	margin-left: 5px;
 }
 .hearts::before
 {
-	content: url("../images/heartbounce.gif");
+	content: url("../assets/images/heartbounce.gif");
 	margin-right: 5px;
 }
 
 .homenav {
-	content: url("../images/buttons/homeproto4.gif");
+	content: url("../assets/images/buttons/homeproto4.gif");
 }
 
 .neighbors {
-	content: url('../images/buttons/neighbors.gif');
+	content: url('../assets/images/buttons/neighbors.gif');
 }
 
 .projectsnav {
-	content: url("../images/buttons/projectsproto.gif");
+	content: url("../assets/images/buttons/projectsproto.gif");
 }
 
 /*EMD OF HEADER ICONS*/
 
 /*DIVIDERS*/
 .greenline {
-	content: url(../images/site/greenline.png);
+	content: url(../assets/images/site/greenline.png);
 }
 
 .linksdivider {
-	content: url(../images/A_14links.gif);
+	content: url(../assets/images/A_14links.gif);
 }
 /*END OF DIVIDERS*/
 
 .books::after
 {
-	content: url("../images/Simple_book.gif");
+	content: url("../assets/images/Simple_book.gif");
 	margin-left: 10px;
 }
 .books::before
 {
-	content: url("../images/Simple_book.gif");
+	content: url("../assets/images/Simple_book.gif");
 	margin-right: 10px;
 }
 
 .frogbounce {
-	content: url("../images/frogbounce.gif");
+	content: url("../assets/images/frogbounce.gif");
 }
 
 .frogs::after
 {
-	content: url("../images/frogbounce.gif");
+	content: url("../assets/images/frogbounce.gif");
 	margin-left: 5px;
 }
 .frogs::before
 {
-	content: url("../images/frogbounce.gif");
+	content: url("../assets/images/frogbounce.gif");
 	margin-right: 5px;
 }
 .new {
-	content: url("../images/new.gif");
+	content: url("../assets/images/new.gif");
 }
 .newwrap::after
 {
-	content: url("../images/new.gif");
+	content: url("../assets/images/new.gif");
 	margin-left: 10px;
 }
 .newwrap::before
 {
-	content: url("../images/new.gif");
+	content: url("../assets/images/new.gif");
 	margin-right: 10px;
 }
 
 .sparkles {
-	content: url("../images/sparkles.gif");
+	content: url("../assets/images/sparkles.gif");
 }
 
 .sparkleswrap::after {
-	content: url("../images/sparkles.gif");
+	content: url("../assets/images/sparkles.gif");
 	margin-left: 5px;
 }
 .sparkleswrap::before {
-	content: url("../images/sparkles.gif");
+	content: url("../assets/images/sparkles.gif");
 	margin-right: 5px;
 }
