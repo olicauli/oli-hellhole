@@ -3,6 +3,23 @@
 /*header, footer, and other main elements*/ 
 /*to be used throughout the entire site.*/
 
+.enterbox 
+{
+	border: dashed;
+	border-width: 1px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 250px;
+	overflow-y: hidden;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .footer
 {
 	margin-left: auto;
@@ -35,7 +52,14 @@
 	color: HotPink;
 }
 
-.leftalign {
+.centerofpage 
+{
+	overflow-y: hidden;
+	margin-top: 10%;
+}
+
+.leftalign 
+{
 	text-align: left;
 }
 .leftalign a {
