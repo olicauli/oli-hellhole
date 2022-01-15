@@ -1,5 +1,4 @@
 ---
-layout: default
 title: web creation
 ---
 <p>waaarrghgh!! today i have a Lot of feelings. this website is kind of making me feel

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: hot minute
 ---
 <p>yoooooooo!!!</p>

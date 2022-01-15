@@ -1,5 +1,4 @@
 ---
-layout: default
 title: javascript
 includes_scripts: true
 ---
