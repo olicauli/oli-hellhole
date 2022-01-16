@@ -88,6 +88,10 @@
 	border-width: 1px;
 }
 
+.neighbormarquee {
+	margin-right: 20px;
+}
+
 .small
 {
 	font-size: smaller;
