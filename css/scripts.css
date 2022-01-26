@@ -1,6 +1,8 @@
+/*collapsible.js styling*/
 .collapsible {
     color: HotPink;
     text-decoration: underline;
+    user-select: none;
 }
 .collapsible:hover {
     color: Gold;

@@ -1,0 +1,117 @@
+/*written by olicauli*/
+/*this css is for:*/
+/*commonly reused images, gifs, images*/
+/*that should be placed before and after text,*/
+/*etc*/
+
+/*HEADER ICONS*/
+.aboutnav {
+	content: url("../assets/images/buttons/aboutproto.gif");
+}
+
+.blogsnav {
+	content: url("../assets/images/buttons/blogsproto.gif");
+}
+.contactnav {
+	content: url("../assets/images/buttons/contactproto.gif");
+}
+
+.enterbutton {
+	content: url("../assets/images/buttons/enter.gif");
+	width:250px;
+}
+
+.headerfrogs {
+	content: url("../assets/images/graphics-frogs-557168.gif");
+}
+
+.heartbounce {
+	content: url("../assets/images/heartbounce.gif");
+}
+
+.hearts::after
+{
+	content: url("../assets/images/heartbounce.gif");
+	margin-left: 5px;
+}
+.hearts::before
+{
+	content: url("../assets/images/heartbounce.gif");
+	margin-right: 5px;
+}
+
+.homenav {
+	content: url("../assets/images/buttons/homeproto4.gif");
+}
+
+.neighbors {
+	content: url('../assets/images/buttons/neighbors.gif');
+}
+
+.projectsnav {
+	content: url("../assets/images/buttons/projectsproto.gif");
+}
+
+/*EMD OF HEADER ICONS*/
+
+/*DIVIDERS*/
+.greenline {
+	content: url(../assets/images/site/greenline.png);
+}
+
+.linksdivider {
+	content: url(../assets/images/A_14links.gif);
+}
+/*END OF DIVIDERS*/
+
+.books::after
+{
+	content: url("../assets/images/Simple_book.gif");
+	margin-left: 10px;
+}
+.books::before
+{
+	content: url("../assets/images/Simple_book.gif");
+	margin-right: 10px;
+}
+
+.frogbounce {
+	content: url("../assets/images/frogbounce.gif");
+}
+
+.frogs::after
+{
+	content: url("../assets/images/frogbounce.gif");
+	margin-left: 5px;
+}
+.frogs::before
+{
+	content: url("../assets/images/frogbounce.gif");
+	margin-right: 5px;
+}
+.new {
+	content: url("../assets/images/new.gif");
+}
+.newwrap::after
+{
+	content: url("../assets/images/new.gif");
+	margin-left: 10px;
+}
+.newwrap::before
+{
+	content: url("../assets/images/new.gif");
+	margin-right: 10px;
+}
+
+.sparkles {
+	content: url("../assets/images/sparkles.gif");
+}
+
+.sparkleswrap::after {
+	content: url("../assets/images/sparkles.gif");
+	margin-left: 5px;
+}
+.sparkleswrap::before {
+	content: url("../assets/images/sparkles.gif");
+	margin-right: 5px;
+}

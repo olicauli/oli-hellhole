@@ -33,6 +33,7 @@
 
 .header h1
 {
+	color: #e4fe6c;
 	font-size: 4em;
 	line-height: 0px;
 }
@@ -79,6 +80,18 @@
 	width: 881px;
 }
 
+.neighbor-box {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed;
+	border-width: 1px;
+}
+
+.neighbormarquee {
+	margin-right: 20px;
+}
+
 .small
 {
 	font-size: smaller;
@@ -112,7 +125,7 @@ a:visited
 body
 {
 	background-color: black;
-	background-image: url('../images/site/animatedstars.gif');
+	background-image: url('../assets/images/site/animatedstars.gif');
 	color: DarkSeaGreen;
 	font-family: Courier, Arial;
 	text-align: center;

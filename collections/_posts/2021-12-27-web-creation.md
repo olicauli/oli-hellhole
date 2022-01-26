@@ -1,4 +1,5 @@
 ---
+title: web creation
 ---
 <p>waaarrghgh!! today i have a Lot of feelings. this website is kind of making me feel
    an unhealthy amount of excitement!! get ready for a completely unedited word-vomit
@@ -9,7 +10,7 @@
    old late 2000s early 2010s stuff, i kinda figured that the companies hosting them would
    try to rebrand and maybe die out. i'm so so happy i'm wrong! having a little chat box on here makes me just unbelievably happy.</p>
         
-<img src="{% link resources/images/drfrg.gif %}">
+<img src="{% link assets/images/drfrg.gif %}">
         
 <p>second of all, i never really thought i could have so much fun making a website.
    i've been a little bit super fixated on getting this site set up, but now that everything's been mostly added i'm hoping my 

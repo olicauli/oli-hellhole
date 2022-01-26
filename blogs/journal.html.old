@@ -1,0 +1,116 @@
+---
+title: journal
+layout: blogs
+file_prefix: ..
+header_file: blank
+header_text: JOURNAL
+includes_scripts: true
+---
+
+<img src="{% link assets/images/Animated-desk-lamp-on-book-goes-off-gif-animation.gif %}">
+<h4 style="color:HotPink;"> hello! </h4>
+<p>welcome to my journal! i likely won't update super often, but every now and then i'll add an entry.
+   this will mostly be a space to kind of catalogue my feelings and talk about my current interests.</p>
+      
+<div id="blog_entry">
+    <h4>--------------------------</h4>
+    <h4 class="newwrap" class="date">2022年01月13日</h4>
+    <h4>--*-*-*-*--</h4>
+    <p>yoooooooo!!!</p>
+    <p>it's been a hot minute!</p>
+    <p>sorry for not updating for a little while. basically, for a little while i took a break to just play video games 
+       and stuff. then, during a dnd campaign, i noticed that my dm was struggling with worldanvil, and while helping
+       them figure stuff out i kept thinking "god... if i did this and this i could improve this site," which
+       then got me thinking that creating my own little world creation website would be really fun. so, i decided to
+       try and pick up react.js, only to learn that web development is, in fact, an entirely new skillset for me to
+       learn, and to properly make this project i would need to devote some real time into learning stuff like AJAX,
+       how to use an API, how to use a database language like SQL, etc. THEN i got very excited about making an interactive shopping list
+       and got completely distracted making a discord bot.</p>
+    <p><span>pros:</span> i now have a discord bot! i added a link to its source code in <a href="{% link projects.html %}">projects</a>.
+      it does literally nothing right now ajnwgnjkawjnkgawa. also since i was using a javascript library for the discord bot i feel a lot 
+      more confident writing in javascript</p>
+    <p><span>cons:</span> <span style="color:DarkSeaGreen" class="frogs shake">My Waking Life Has Been Consumed by making a discord bot</span></p>
+    <p>anyways coming back and looking at all this text crammed into one file is making me cry. once my brain
+      unfixates itself i swear im gonna come back and refactor all the blogs >:)</p>
+    <p> </p>
+    <h4>--*-*-*-*--</h4>
+    <h4 class="date">2022年01月03日</h4>
+    <h4>--*-*-*-*--</h4>
+    <p>hello! it's been a few days! ya man got hit by a bit of a depressive episode but i think 
+       i am doing a bit better today.</p>
+    <p>winter break is ending in only a few weeks from now, so i'm getting hit with a bit of the 
+       "i have done absolutely nothing useful with my time" guilt awjkngkjwaga. :(</p>
+    <p>i also learned something about myself: i learn much much better thru doing and fixing, rather than reading abt
+       fundamentals.
+       learning js has been a bit of a difficult slog as a result, but now that i've realised that these tutorials aren't meeting my 
+       needs and that more learn-by-doing "just skim through the reference docs until you have what you need 
+       and fix it later" kind of stuff is better for me, i might make a bit more progress.</p>
+    <p>for now, behold the only fruit of my labour! (if u have js enabled anyway):</p>
+    <p class="collapsible">behold frog</p>
+    <div class="collapse_content">
+    <img class="shake" src="/assets/images/drfrg.gif">
+    <p class="shake">bow before his majesty</p>
+    </div>
+    <p>i guess the only other thing is that the blog pages are a bit of a mess;
+       what i'll work on for now is making em a little dynamic so that there isnt Every Single Blogpost
+       in one html file. maybe make each date a button that expands the page content, who knows</p>
+    
+    <h4>--*-*-*-*--</h4>
+    <h4 class="date">2021年12月30日</h4>
+    <h4>--*-*-*-*--</h4>
+    <p>my computer now has three different operating systems on it! god himself
+    trembles at my hubris.</p>
+    <p>also i learned that instead of copying and pasting an img tag whenever i want 
+    to add little gifs i can just. make a css class. expect 300% more frog gifs <i class="frogbounce"></i></p>
+    <h4>--*-*-*-*--</h4>
+    <h4 class="date">2021年12月29日</h4>
+    <h4>--*-*-*-*--</h4>
+    <p>PHEW.... i've done pretty much nothing but draw stuff for the new navbar and
+    rewrite all my code today. i did not intend to learn liquid but. i guess i know liquid now??</p>
+    <p>the drawing stuff wasn't exactly planned, but since i'm probably going to be making
+    assets for this site + basic games in js or other languages to practice, i figured
+    having a good sprite-making program was a good idea, and i heard asesprite was good and it was like 
+    $12 dollars, so i bought it. then i realised that i could make gifs in it, so i got kinda absorbed 
+    in doing that, and it all went downhill from there. steam says i somehow spent 9 hours in asesprite today???</p>
+    <p>as for the refactoring, although it was time consuming, i'm pretty thankful i put the time into getting it done! it's
+    going to be far far easier making new pages without having to copy and paste and edit and fix
+    all that repeated code. i also learned a few new css thingies, like the ::before and ::after pseudoclasses,
+    which was super super cool, because i like having gifs before and after things! and now i can do that 
+    in a much more readable way <i class="frogbounce"></i></p>
+    <p>here are a few of the resources i used, if anyone was curious:</p>
+    <p>the static site generator: <a href="https://jekyllrb.com/docs/step-by-step/01-setup/" target="_blank" rel="noopener noreferrer">jekyll documentation</a></p>
+    <p>the template language jekyll uses to generate pages: <a href="https://shopify.github.io/liquid/basics/introduction/" target="_blank" rel="noopener noreferrer">
+      liquid documentation</a></p>
+    <p>anyway, that's it for now. i kinda wanna practice my mandarin more, so hopefully i'll add an entry to 
+    中文日记 soon. look forward to my absolutely garbage mandarin!!</p>
+    
+    <h4>--*-*-*-*--</h4>
+    <h4 class="date">2021年12月27日</h4>
+    <h4>--*-*-*-*--</h4>
+    <p>waaarrghgh!! today i have a Lot of feelings. this website is kind of making me feel
+       an unhealthy amount of excitement!! get ready for a completely unedited word-vomit
+       of all my feelings!! (edit: unfortunately this is no longer true lmao. after i left
+       my manic excited state some parts of the journal made me feel embarassed so i removed them)</p>
+            
+    <p>first of all, i found out that retro-style live chat boxes still exist. for most of the 
+       old late 2000s early 2010s stuff, i kinda figured that the companies hosting them would
+       try to rebrand and maybe die out. i'm so so happy i'm wrong! having a little chat box on here makes me just unbelievably happy.</p>
+            
+    <img src="/assets/images/drfrg.gif">
+            
+    <p>second of all, i never really thought i could have so much fun making a website.
+       i've been a little bit super fixated on getting this site set up, but now that everything's been mostly added i'm hoping my 
+       brain calms down a bit so i can get some more productive stuff done. until then, expect a lot of
+       activity from me lol.</p>
+    
+    <p>i guess there's also something else i realised (or rather, re-remembered) from making this... i have 
+       No Idea how to talk to people.</p> 
+    <p>i just!! have no clue how small talk works!!! what do normal people write on guestbooks?? 
+       what's socially appropriate to say to strangers??? i'm still gonna try regardless, but DAMN lol. 
+       it kinda hit me all at once.
+    <p>that's all for today! expect other journal entries to be a bit shorter than this.</p>
+</div>
+
+<h4>~-*-~</h4>
+<h4>thank you for reading my journal!</h4>
+<img src="{% link favicon-32x32.png %}">

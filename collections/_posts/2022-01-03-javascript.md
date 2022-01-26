@@ -1,4 +1,6 @@
 ---
+title: javascript
+includes_scripts: true
 ---
 <p>hello! it's been a few days! ya man got hit by a bit of a depressive episode but i think 
    i am doing a bit better today.</p>
@@ -12,7 +14,7 @@
 <p>for now, behold the only fruit of my labour! (if u have js enabled anyway):</p>
 <p class="collapsible">behold frog</p>
 <div class="collapse_content">
-   <img class="shake" src="{% link resources/images/drfrg.gif %}">
+   <img class="shake" src="{% link assets/images/drfrg.gif %}">
    <p class="shake">bow before his majesty</p>
 </div>
 <p>i guess the only other thing is that the blog pages are a bit of a mess;
