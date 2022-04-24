@@ -12,7 +12,7 @@ https://olicauli.neocities.org/
 
 1. fork or clone the repo.
 2. run the command `bundle install` to install the necessary gems.
-2. run `bundle exec jekyll serve` in your terminal in the repo's directory.
+2. run `jekyll serve` in your terminal in the repo's directory.
 3. open `http://localhost:4000` in your browser to access the website.
 
 ## support
