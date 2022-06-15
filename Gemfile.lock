@@ -43,6 +43,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86_64-linux
 
@@ -50,4 +51,4 @@ DEPENDENCIES
   jekyll (= 3.5.1)
 
 BUNDLED WITH
-   2.2.17
+   2.3.15
