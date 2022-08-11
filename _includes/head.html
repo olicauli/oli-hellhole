@@ -19,4 +19,7 @@
         <link href="{% link css/scripts.css %}" rel="stylesheet" type="text/css" media="all">
         <script src="{% link scripts/collapsible.js %}"></script>
     {% endif %}
+    {% if page.uses_dreamspace_script %}
+        <script defer="defer" src="{% link projects/games/dreamspace/bundle.min.js %}"></script>
+    {% endif %}
 </head>
