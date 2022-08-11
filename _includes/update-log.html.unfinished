@@ -10,5 +10,4 @@
   {{ update.content }}
   <h5>~-*-~</h5>
   {% endfor %}
-  <h4></h4>
 </div>
