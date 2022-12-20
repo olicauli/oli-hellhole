@@ -141,6 +141,11 @@ h4
 	color: Gold;
 }
 
+h5
+{
+	color: Gold;
+}
+
 li
 {
 	list-style-image: url('../assets/images/star-empty2.gif');
@@ -155,4 +160,16 @@ nav
 
 span {
   color: HotPink;
+}
+
+/*COLORS: so i dont have to do style="color: jkwkngnjka" manually every time*/
+
+.gold
+{
+	color: gold;
+}
+
+.hotpink
+{
+	color: hotpink;
 }

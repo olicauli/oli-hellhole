@@ -64,6 +64,7 @@
 /*fave: for li elements; changes the bulletine point to a bouncing star*/
 .fave {
 	list-style-image: url("../assets/images/starbounce.gif");
+	font-weight: bold;
 }
 
 .frogbounce {
