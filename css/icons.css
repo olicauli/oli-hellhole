@@ -25,21 +25,6 @@
 	content: url("../assets/images/graphics-frogs-557168.gif");
 }
 
-.heartbounce {
-	content: url("../assets/images/heartbounce.gif");
-}
-
-.hearts::after
-{
-	content: url("../assets/images/heartbounce.gif");
-	margin-left: 5px;
-}
-.hearts::before
-{
-	content: url("../assets/images/heartbounce.gif");
-	margin-right: 5px;
-}
-
 .homenav {
 	content: url("../assets/images/buttons/homeproto4.gif");
 }
@@ -64,6 +49,7 @@
 }
 /*END OF DIVIDERS*/
 
+/*DECORATIVE ICONS*/
 .books::after
 {
 	content: url("../assets/images/Simple_book.gif");
@@ -73,6 +59,11 @@
 {
 	content: url("../assets/images/Simple_book.gif");
 	margin-right: 10px;
+}
+
+/*fave: for li elements; changes the bulletine point to a bouncing star*/
+.fave {
+	list-style-image: url("../assets/images/starbounce.gif");
 }
 
 .frogbounce {
@@ -89,6 +80,22 @@
 	content: url("../assets/images/frogbounce.gif");
 	margin-right: 5px;
 }
+
+.heartbounce {
+	content: url("../assets/images/heartbounce.gif");
+}
+
+.hearts::after
+{
+	content: url("../assets/images/heartbounce.gif");
+	margin-left: 5px;
+}
+.hearts::before
+{
+	content: url("../assets/images/heartbounce.gif");
+	margin-right: 5px;
+}
+
 .new {
 	content: url("../assets/images/new.gif");
 }
@@ -115,3 +122,18 @@
 	content: url("../assets/images/sparkles.gif");
 	margin-right: 5px;
 }
+
+.starbounce {
+	content: url("../assets/images/starbounce.gif")
+}
+.stars::after
+{
+	content: url("../assets/images/starbounce.gif");
+	margin-left: 5px;
+}
+
+.stars::before {
+	content: url("../assets/images/starbounce.gif");
+	margin-right: 5px;
+}
+/*END OF DECORATIVE ICONS*/

@@ -143,6 +143,7 @@ h4
 
 li
 {
+	list-style-image: url('../assets/images/star-empty2.gif');
 	color: Gold;
 }
 
