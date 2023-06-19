@@ -1,7 +1,9 @@
+source: ./src
+destination: ./dist
+
 collections:
-  updates:
-    output: true
-    permalink: /:collection/:name
+  - updates
+
 defaults:
   -
     scope:
@@ -10,10 +12,8 @@ defaults:
     values:
       layout: "default"
       title: "changethis"
-    collections_dir: collections
     home: false
-    enter: false
-    permalink: /:title/
+    permalink: :title/
     uses_img_header: false
     file_prefix: .
     header_file: "dfsf"

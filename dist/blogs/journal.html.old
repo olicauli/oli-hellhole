@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- written by olicauli  -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>olis hellhole | journal</title>
+    
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/home.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/icons.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/animations.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/blogs.css" rel="stylesheet" type="text/css" media="all">
+    
+        <link href="/css/scripts.css" rel="stylesheet" type="text/css" media="all">
+        <script src="/scripts/collapsible.js"></script>
+    
+    
+</head>
+  <body>
+    <header>
+      <div class="header">
+    
+    
+    
+        <h1 class="shake">JOURNAL</h1>
+    
+    
+    <br>
+    <i class="greenline"></i>
+    <nav>
+        <a href="/"><i class="button homenav"></i></a>
+        <a href="/about/"><i class="button aboutnav"></i></a>
+        <a href="/contact/"><i class="button contactnav"></i></a>
+        <a href="/projects/"><i class="button projectsnav"></i></a>
+    </nav>
+    <i class="greenline"></i>
+</div>
+    </header>
+    
+    <div class="main_content">
+      <img src="/assets/images/Animated-desk-lamp-on-book-goes-off-gif-animation.gif">
+<h4 style="color:HotPink;"> hello! </h4>
+<p>welcome to my journal! i likely won't update super often, but every now and then i'll add an entry.
+   this will mostly be a space to kind of catalogue my feelings and talk about my current interests.</p>
+   <h4>--*-*-*-*--</h4>
+<div id="blognav">
+    
+    <h4>--*-*-*-*--</h4>
+</div>
+    </div>
+    
+    <div class="footer">
+    <footer>
+        
+        <i class="greenline"></i>
+        <br>
+        
+            <p>website lovingly coded by olicauli, 2021-present</p>
+        
+        
+        
+        
+        
+        <br>
+        <i class="greenline"></i>
+    </footer>
+</div>
+  </body>
+</html>

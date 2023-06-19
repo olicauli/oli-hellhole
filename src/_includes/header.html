@@ -1,0 +1,23 @@
+<div class="header">
+    {% if page.home %}
+        {% capture display_frog %}<i class="shakeh headerfrogs"></i>{% endcapture %}
+    {% endif %}
+    
+    {% if page.uses_img_header %}
+        {{ display_frog }}
+        <img class="shake" src="{{ site.baseurl }}/assets/images/site/{{ page.header_file }}">
+        {{ display_frog }}
+    {% else %}
+        <h1 class="shake">{{ page.header_text }}</h1>
+    {% endif %}
+    
+    <br>
+    <i class="greenline"></i>
+    <nav>
+        <a href="{% link index.html %}"><i class="button homenav"></i></a>
+        <a href="{% link about.html %}"><i class="button aboutnav"></i></a>
+        <a href="{% link contact.html %}"><i class="button contactnav"></i></a>
+        <a href="{% link projects.html %}"><i class="button projectsnav"></i></a>
+    </nav>
+    <i class="greenline"></i>
+</div>

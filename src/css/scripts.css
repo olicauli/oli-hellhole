@@ -1,0 +1,15 @@
+/*collapsible.js styling*/
+.collapsible {
+    color: HotPink;
+    text-decoration: underline;
+    user-select: none;
+}
+.collapsible:hover {
+    color: Gold;
+}
+.collapsible:active {
+    color: IndianRed;
+}
+.collapse_content {
+    display: none;
+}

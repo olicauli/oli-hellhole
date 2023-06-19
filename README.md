@@ -2,18 +2,31 @@
 an early 2000s themed personal website written using HTML, CSS, and a tiny amount of javascript.
 jekyll is used to generate static site pages.
 
+### table of contents
+1. [access the website](#access-the-website)
+2. [set up for testing](#set-up-the-website-for-testing-on-your-machine)
+3. [deployment](#deployment)
+4. [support](#support)
+5. [license](#license)
+
 ## access the website
 
 this website is currently being hosted on neocities:
 
 https://olicauli.neocities.org/
 
-## set up the website on your machine
+## set up for testing
 
 1. fork or clone the repo.
-2. run the command `bundle install` to install the necessary gems.
-2. run `jekyll serve` in your terminal in the repo's directory.
+2. navigate to the folder for this repo and run the command `bundle install` to install the necessary gems. (make sure [ruby](https://www.ruby-lang.org/en/) and [bundler](https://bundler.io/) are installed.)
+2. run `bundle exec jekyll serve` in your terminal in the repo's directory.
 3. open `http://localhost:4000` in your browser to access the website.
+
+the `src` folder is where all the source code is located. `dist` contains the final compiled files.
+
+## deployment
+1. run `bundle exec jekyll build` in your terminal
+2. the final files will all be located in the `dist` folder. push that folder to neocities or wherever to deploy the website.
 
 ## support
 

@@ -1,0 +1,12 @@
+<div class="updateheader">
+  <h4 class="books">updates</h4>
+</div>
+<br>
+<div class="updatelog">
+  {% for update in site.updates reversed %}
+  <h4> {{ update.date | date: "%Y年%m月%d日" }}</h4>
+  <h5>~-*-~</h5>
+  {{ update.content | markdownify }}
+  <h5>~-*-~</h5>
+  {% endfor %}
+</div>
