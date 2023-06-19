@@ -1,10 +1,10 @@
 source: ./src
 destination: ./dist
 
+collections_dir: /src/my_collections
 collections:
-  updates:
-    output: true
-    permalink: /:collection/:name
+  - updates
+  
 defaults:
   -
     scope:
@@ -13,7 +13,6 @@ defaults:
     values:
       layout: "default"
       title: "changethis"
-    collections_dir: collections
     home: false
     enter: false
     permalink: :title/
