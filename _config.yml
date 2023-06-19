@@ -2,7 +2,7 @@ source: ./src
 destination: ./dist
 
 collections:
-  updates:
+  - updates
 
 defaults:
   -
@@ -13,7 +13,6 @@ defaults:
       layout: "default"
       title: "changethis"
     home: false
-    enter: false
     permalink: :title/
     uses_img_header: false
     file_prefix: .
