@@ -8,12 +8,16 @@ this website is currently being hosted on neocities:
 
 https://olicauli.neocities.org/
 
-## set up the website on your machine
+## set up the website for testing on your machine
 
 1. fork or clone the repo.
 2. run the command `bundle install` to install the necessary gems.
-2. run `jekyll serve` in your terminal in the repo's directory.
+2. run `bundle exec jekyll serve` in your terminal in the repo's directory.
 3. open `http://localhost:4000` in your browser to access the website.
+
+## set up the website for deployment
+1. run `bundle exec jekyll build` in your terminal
+2. the final files will all be located in the `dist` folder. push that folder to neocities or wherever to deploy the website.
 
 ## support
 
