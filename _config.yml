@@ -1,10 +1,9 @@
 source: ./src
 destination: ./dist
 
-collections_dir: /src/my_collections
 collections:
-  - updates
-  
+  updates:
+
 defaults:
   -
     scope:
