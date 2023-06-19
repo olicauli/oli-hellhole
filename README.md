@@ -22,6 +22,8 @@ https://olicauli.neocities.org/
 2. run `bundle exec jekyll serve` in your terminal in the repo's directory.
 3. open `http://localhost:4000` in your browser to access the website.
 
+the `src` folder is where all the source code is located. `dist` contains the final compiled files.
+
 ## deployment
 1. run `bundle exec jekyll build` in your terminal
 2. the final files will all be located in the `dist` folder. push that folder to neocities or wherever to deploy the website.
