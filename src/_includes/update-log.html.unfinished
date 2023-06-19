@@ -1,0 +1,13 @@
+<div class="updateheader">
+  <h4 class="books">updates</h4>
+</div>
+<br>
+
+<div class="updatelog">
+  {% for update in site.updates %}
+  <h4> {{ update.date }}</h4>
+  <h5>~-*-~</h5>
+  {{ update.content }}
+  <h5>~-*-~</h5>
+  {% endfor %}
+</div>

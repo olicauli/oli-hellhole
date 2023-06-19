@@ -1,0 +1,39 @@
+<div class="footer">
+    <footer>
+        {% if page.home %}
+        <i class="neighbors"></i>
+        <br>
+        <div class="neighbor-box">
+            <marquee behavior="scroll" direction="right">
+                <a class="neighbormarquee" href="https://remsite.neocities.org/" target="_blank" rel="noopener noreferrer">remsite</a>
+                <a class="neighbormarquee" href="https://risen-gardens.neocities.org/" target="_blank" rel="noopener noreferrer">risen gardens</a>
+            </marquee>
+            <br>
+        </div>
+        {% endif %}
+        <i class="greenline"></i>
+        <br>
+        {% unless page.zh %}
+            <p>website lovingly coded by olicauli, 2021-present</p>
+        {% endunless %}
+        
+        {% if page.zh %}
+            <p>这个网页给奥利写了 2021年-今年</p>
+        {% endif %}
+        
+        {% if page.home %}
+            <p>most gifs from a. n. lucas, gifcities.org or netanimations.net</p>
+            <p>feel free to link my button!</p> 
+            <img src="{% link assets/images/webbuttons/olihellhole_button4.gif %}">
+            <br>
+            <img src="{% link assets/images/webbuttons/bookmark_this_page.gif %}">
+            <img src="{% link assets/images/webbuttons/site_best_viewed_with_monitor.gif %}">
+            <img src="{% link assets/images/webbuttons/best_viewed_with_eyes.gif %}">
+            <a href="https://neocities.org/" target="_blank" rel="noopener noreferrer"><img class="button" src="{% link assets/images/webbuttons/neocities-60.gif %}"></a>
+            <a href="https://www.linux.org/pages/download/" target="_blank" rel="noopener noreferrer"><img class="button" src="{% link assets/images/webbuttons/linux_now.gif %}"></a>
+            <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-32849-05"><img class="button" alt="Guestbook" border="0" src="http://extras3.smartgb.com/b/gb_80x40.gif" width="80" height="40"></a>
+        {% endif %}
+        <br>
+        <i class="greenline"></i>
+    </footer>
+</div>

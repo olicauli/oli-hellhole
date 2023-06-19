@@ -1,0 +1,182 @@
+/*written by olicauli*/
+/*this css is for:*/
+/*header, footer, and other main elements*/ 
+/*to be used throughout the entire site.*/
+
+.enterbox 
+{
+	border: dashed;
+	border-width: 1px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 250px;
+	overflow-y: hidden;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer p
+{
+	font-size: smaller;
+}
+
+.header h1
+{
+	color: #e4fe6c;
+	font-size: 4em;
+	line-height: 0px;
+}
+
+.centerbox
+{
+	display: inline-block;
+	height: 400px;
+	left: 100%;
+	margin: 25px 10px 0px 0px;
+	text-align: center;
+	width: 250px;
+}
+
+.centerbox span
+{
+	color: HotPink;
+}
+
+.centerofpage 
+{
+	overflow-y: hidden;
+	margin-top: 10%;
+}
+
+.leftalign 
+{
+	text-align: left;
+}
+
+.leftalign a {
+	display: inline;
+}
+
+.leftalign a:after 
+{
+	white-space: pre;
+	content:'\a';
+}
+
+.main_content
+{
+	display: inline-block;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+	width: 881px;
+}
+
+.neighbor-box {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed;
+	border-width: 1px;
+}
+
+.neighbormarquee {
+	margin-right: 20px;
+}
+
+.small
+{
+	font-size: smaller;
+}
+
+.warning
+{
+	color: red;
+}
+
+a:active
+{
+	color: GoldenRod;
+}
+
+a:hover
+{
+	color: Gold;
+}
+
+a:link
+{
+	color: HotPink;
+}
+
+a:visited
+{
+	color: IndianRed;
+}
+
+body
+{
+	background-color: black;
+	background-image: url('../assets/images/site/animatedstars.gif');
+	color: DarkSeaGreen;
+	font-family: Courier, Arial;
+	text-align: center;
+}
+
+h1
+{
+	color: Yellow;
+}
+
+h4
+{
+	color: Gold;
+}
+
+h5
+{
+	color: Gold;
+}
+
+li
+{
+	list-style-image: url('../assets/images/star-empty2.gif');
+	color: Gold;
+}
+
+nav
+{
+	margin-bottom: 10px;
+	position: sticky;
+}
+
+span {
+  color: HotPink;
+}
+
+/*COLORS: so i dont have to do style="color: jkwkngnjka" manually every time*/
+
+.gold
+{
+	color: gold;
+}
+
+.hotpink
+{
+	color: hotpink;
+}
