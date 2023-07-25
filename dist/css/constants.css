@@ -1,0 +1,11 @@
+:root 
+{
+	--title-text: #e4fe6c;
+	--headers-text: Gold;
+	--main-text: DarkSeaGreen;
+	--secondary-text: HotPink;
+	--links: HotPink;
+	--links-active: GoldenRod;
+	--links-hover: Gold;
+	--links-visited: IndianRed;
+}

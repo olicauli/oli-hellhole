@@ -3,14 +3,15 @@
 /*all styling specific to the home page,*/
 /*which is currently index.html.*/
 
+@import './constants.css';
+
 .dajiahao
 {
-	color: HotPink;
 	margin-left: 20px;
 }
-.messagebox h4
+.dajiahao, .messagebox h4, .updateheader h4
 {
-	color: HotPink;
+	color: var(--secondary-text);
 }
 
 .updateheader
@@ -18,10 +19,7 @@
 	display: inline-block;
 	width: 250px;
 }
-.updateheader h4
-{
-	color: HotPink;
-}
+
 .updatelog
 {
 	border: dashed;
@@ -34,32 +32,27 @@
 	padding-top: 0px;
 	width: 190px;
 }
-.updatelog h4
+.updatelog h4, .updatelog h5
 {
-	color: Gold;
+	color: var(--headers-text);
 	font-size: smaller;
 	line-height: 20%;
 	text-align: center;
 }
-.updatelog h5
-{
-	color: Gold;
-	font-size: smaller;
-	line-height: 20%;
-	text-align: center;
-}
+
 .updatelog li
 {
-	color: HotPink;
+	color: var(--secondary-text);
 	font-size: smaller;
 	text-align: left;
 }
-.updatelog p
+
+/* .updatelog p
 {
 	color: DarkSeaGreen;
 	font-size: smaller;
 	text-align: left;
-}
+} */
 
 .welcomebox
 {
