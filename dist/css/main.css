@@ -124,7 +124,7 @@ body
 {
 	background-color: black;
 	background-image: url('/assets/images/site/animatedstars.gif');
-	color: DarkSeaGreen;
+	color: var(--main-text);
 	font-family: Courier, Arial;
 	text-align: center;
 }

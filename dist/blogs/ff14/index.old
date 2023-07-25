@@ -15,7 +15,8 @@
     <link href="/css/home.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/icons.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/animations.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/blogs.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/crt.css" rel="stylesheet" type="text/css" media="all">
+    <!--<link href="/css/blogs.css" rel="stylesheet" type="text/css" media="all">-->
     
     
 </head>

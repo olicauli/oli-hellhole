@@ -2,14 +2,15 @@
 /*this css is for:*/
 /*all styling related to blog/project pages*/
 
-.blogentry .date
+/*since blogs has been removed this is deprecated.*/
+
+@import './constants.css';
+
+.blogentry .date, .blogentry h4
 {
-	color: HotPink;
+	color: var(--secondary-text);
 }
-.blogentry h4
-{
-	color: HotPink;
-}
+
 .blognav ul
 {
 	list-style-type: none;
