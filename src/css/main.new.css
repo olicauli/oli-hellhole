@@ -4,17 +4,17 @@
 /*to be used throughout the entire site.*/
 @import './constants.css';
 
-body 
+.grid
 {
     display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .footer
 {
-    grid-row: -1;
-	margin-left: auto;
-	margin-right: auto;
+    grid-row: 3;
 }
 
 .footer p
@@ -22,7 +22,12 @@ body
 	font-size: smaller;
 }
 
-.header h1
+header
+{
+    grid-row: 1;
+}
+
+header h1
 {
 	color: var(--title-text);
 	font-size: 4em;
@@ -41,11 +46,9 @@ body
 
 .centerbox
 {
-	display: inline-block;
-	height: 400px;
-	left: 100%;
-	margin: 25px 10px 0px 0px;
+	margin: 25px auto;
 	text-align: center;
+    height: auto;
 	width: 250px;
 }
 
@@ -78,14 +81,10 @@ body
 .main_content
 {
     grid-row: 2;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-	/* overflow-x: hidden; */
-	/* overflow-y: auto; */
+    margin: 0 auto;
 	text-align: center;
 	width: 881px;
+    max-width: 100%;
 }
 
 .neighbor-box {
@@ -129,9 +128,16 @@ body
 	text-align: center;
 }
 
-h1, h4, h5
+h4, h5
 {
 	color: var(--headers-text);
+}
+
+h1
+{
+    color: #e4fe6c;
+    font-size: 4em;
+    line-height: 0px;
 }
 
 li
@@ -142,9 +148,7 @@ li
 
 nav
 {
-    grid-row: 1;
 	margin-bottom: 10px;
-	position: sticky;
 }
 
 /*COLORS: so i dont have to do style="color: jkwkngnjka" manually every time*/

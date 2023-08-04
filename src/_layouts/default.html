@@ -3,14 +3,14 @@
 <html>
   {% include head.html %}
   <body class="crt">
-    <header>
+    <div class="grid">
       {% include header.html %}
-    </header>
-    
-    <div class="main_content">
-      {{ content }}
+      
+      <div class="main_content">
+        {{ content }}
+      </div>
+      
+      {% include footer.html %}
     </div>
-    
-    {% include footer.html %}
   </body>
 </html>
