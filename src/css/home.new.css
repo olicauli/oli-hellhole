@@ -1,3 +1,8 @@
+/*written by olicauli*/
+/*this css is for:*/
+/*all styling specific to the home page,*/
+/*which is currently index.html.*/
+
 @import './constants.css';
 
 .main_content 
@@ -12,19 +17,19 @@
 {
     grid-row: 1;
     grid-column: 1 / span 2;
+    margin: 0 8px;
 }
 
 .welcomebox
 {
     grid-row: 2 / span 2;
     grid-column: 1;
-    overflow-y: scroll;
 }
 
 .messagebox
 {
     grid-row: 2;
-    grid-column: 1;
+    grid-column: 2;
 }
 
 .updatebox
@@ -35,14 +40,10 @@
 
 .updatelog
 {
-	border: dashed;
-	border-width: 1px;
+    border: 1px dashed;
 	display: inline-block;
 	height: 250px;
 	overflow-y: scroll;
-	padding-bottom: 8px;
-	padding-left: 5px;
-	padding-top: 0px;
 	width: 190px;
 }
 .updatelog h4, .updatelog h5
@@ -65,6 +66,21 @@
     padding-top: 30px;
     grid-row: 4;
     grid-column: 1 / span 2;
+}
+
+.neighbor-box, .updatelog, .messagebox iframe
+{
+    border: 1px dashed;
+    border-radius: 10px;
+}
+
+.neighbor-box {
+	width: 250px;
+    margin: 0 auto;
+}
+
+.neighbormarquee {
+	margin-right: 20px;
 }
 
 /* .updatelog p

@@ -10,6 +10,7 @@
     grid-template: minmax(0, 1fr) / minmax(0, 1fr);
     margin: 0 auto;
     justify-content: center;
+    max-width: 100%;
 }
 
 .footer
@@ -32,6 +33,23 @@ header h1
 	color: var(--title-text);
 	font-size: 4em;
 	line-height: 0px;
+}
+
+hr
+{
+    border: 0;
+    height: 3px;
+    border-radius: 5px;
+    width: var(--container-width);
+    max-width: 100%;
+    background: #333;
+    margin: 10px auto;
+    background-image: linear-gradient(90deg,rgb(70, 100, 70), rgb(133, 148, 88), rgb(70, 100, 70));
+}
+
+header hr 
+{
+    background-image: linear-gradient(90deg,rgb(70, 100, 70), rgb(191, 219, 114), rgb(70, 100, 70));
 }
 
 .enterbox 
@@ -80,24 +98,15 @@ header h1
 
 .main_content
 {
+    margin: 20px 0;
     grid-row: 2;
-    margin: 0 auto;
+    justify-self: center;
 	text-align: center;
-	width: 881px;
+	width: var(--container-width);
     max-width: 100%;
 }
 
-.neighbor-box {
-	width: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	border: dashed;
-	border-width: 1px;
-}
 
-.neighbormarquee {
-	margin-right: 20px;
-}
 
 .small
 {
@@ -140,9 +149,14 @@ h1
     line-height: 0px;
 }
 
+ul 
+{
+    text-align: left;
+    list-style-image: url('/assets/images/star-empty2.gif');
+}
+
 li
 {
-	list-style-image: url('/assets/images/star-empty2.gif');
 	color: var(--headers-text);
 }
 
@@ -150,8 +164,6 @@ nav
 {
 	margin-bottom: 10px;
 }
-
-/*COLORS: so i dont have to do style="color: jkwkngnjka" manually every time*/
 
 .gold
 {

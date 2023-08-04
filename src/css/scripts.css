@@ -12,4 +12,15 @@
 }
 .collapse_content {
     display: none;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px dashed;
+    border-radius: 10px;
+}
+
+.collapse_content > ul, .collapse_content > h4
+{
+    margin: 0;
 }
