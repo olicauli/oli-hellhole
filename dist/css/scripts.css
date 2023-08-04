@@ -1,14 +1,14 @@
 /*collapsible.js styling*/
 .collapsible {
-    color: HotPink;
+    color: var(--links);
     text-decoration: underline;
     user-select: none;
 }
 .collapsible:hover {
-    color: Gold;
+    color: var(--links-hover);
 }
 .collapsible:active {
-    color: IndianRed;
+    color: var(--links-visited);
 }
 .collapse_content {
     display: none;
@@ -16,7 +16,7 @@
     max-width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px dashed;
+    border: var(--default-border);
     border-radius: 10px;
 }
 

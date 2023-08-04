@@ -4,10 +4,22 @@
 /*to be used throughout the entire site.*/
 @import './constants.css';
 
+body *
+{
+	max-width: 100%;
+}
+
+.grid
+{
+    display: grid;
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+    justify-content: center;
+	justify-items: center;
+}
+
 .footer
 {
-	margin-left: auto;
-	margin-right: auto;
+    grid-row: 3;
 }
 
 .footer p
@@ -15,50 +27,72 @@
 	font-size: smaller;
 }
 
-.header h1
+header
+{
+    grid-row: 1;
+}
+
+.art-music-grid 
+{
+	display: grid;
+	grid-gap: 20px;
+	grid-template: 1fr / 60% 40%;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+.art-music-grid > *
+{
+	border: var(--default-border);
+	border-radius: var(--default-border-radius);
+}
+
+.art-col
+{
+	grid-column: 1;
+}
+
+.music-col
+{
+	grid-column: 2;
+}
+
+header h1
 {
 	color: var(--title-text);
 	font-size: 4em;
 	line-height: 0px;
 }
 
-.enterbox 
+hr
 {
-	border: dashed;
-	border-width: 1px;
-	margin-top: 80px;
-	margin-bottom: 30px;
-	padding-left: 75px;
-	padding-right: 75px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	width: 250px;
-	/* overflow-y: hidden; */
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+    border: 0;
+    height: 3px;
+    border-radius: 5px;
+    width: var(--container-width);
+    max-width: 100%;
+    background: #333;
+    margin: 10px auto;
+    background-image: linear-gradient(90deg,rgb(70, 100, 70), rgb(133, 148, 88), rgb(70, 100, 70));
 }
 
+header hr 
+{
+    background-image: linear-gradient(90deg,rgb(70, 100, 70), rgb(191, 219, 114), rgb(70, 100, 70));
+}
 
 .centerbox
 {
-	display: inline-block;
-	height: 400px;
-	left: 100%;
-	margin: 25px 10px 0px 0px;
+	margin: 25px auto;
 	text-align: center;
+    height: auto;
 	width: 250px;
 }
 
 .centerbox span, a:link, span
 {
 	color: var(--secondary-text);
-}
-
-.centerofpage 
-{
-	/* overflow-y: hidden; */
-	margin-top: 10%;
 }
 
 .leftalign 
@@ -78,31 +112,22 @@
 
 .main_content
 {
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 100%;
-	/* overflow-x: hidden; */
-	/* overflow-y: auto; */
+    margin: 20px 0;
+    grid-row: 2;
+    justify-self: center;
 	text-align: center;
-	width: 881px;
-}
-
-.neighbor-box {
-	width: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	border: dashed;
-	border-width: 1px;
-}
-
-.neighbormarquee {
-	margin-right: 20px;
+	width: var(--container-width);
+    max-width: 100%;
 }
 
 .small
 {
 	font-size: smaller;
+}
+
+a:visited
+{
+	color: var(--links-visited);
 }
 
 a:active
@@ -115,11 +140,6 @@ a:hover
 	color: var(--links-hover);
 }
 
-a:visited
-{
-	color: var(--links-visited);
-}
-
 body
 {
 	background-color: black;
@@ -129,24 +149,33 @@ body
 	text-align: center;
 }
 
-h1, h4, h5
+h4, h5
 {
 	color: var(--headers-text);
 }
 
+h1
+{
+    color: #e4fe6c;
+    font-size: 4em;
+    line-height: 0px;
+}
+
+ul 
+{
+    text-align: left;
+    list-style-image: url('/assets/images/star-empty2.gif');
+}
+
 li
 {
-	list-style-image: url('/assets/images/star-empty2.gif');
 	color: var(--headers-text);
 }
 
 nav
 {
 	margin-bottom: 10px;
-	position: sticky;
 }
-
-/*COLORS: so i dont have to do style="color: jkwkngnjka" manually every time*/
 
 .gold
 {

@@ -5,36 +5,42 @@
 
 @import './constants.css';
 
-.dajiahao
+.main_content 
 {
-	margin-left: 20px;
-}
-.dajiahao, .messagebox h4, .updateheader h4
-{
-	color: var(--secondary-text);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-flow: row;
+    min-height: 0px;
+    grid-template: 60px 330px 1fr 130px / 1fr 1fr;
 }
 
-.updateheader
+.welcome-marquee
 {
-	display: inline-block;
-	width: 250px;
+    grid-row: 1;
+    grid-column: 1 / span 2;
 }
 
-.neighbor-box {
-	width: 250px;
-    margin: 0 auto;
-	border: dashed;
-	border-width: 1px;
+.welcomebox
+{
+    grid-row: 2 / span 2;
+    grid-column: 1;
 }
 
-.neighbormarquee {
-	margin-right: 20px;
+.messagebox
+{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.updatebox
+{
+    grid-row: 3;
+    grid-column: 2;
 }
 
 .updatelog
 {
-	border: 1px dashed;
-	display: inline-block;
 	height: 250px;
 	overflow-y: scroll;
 	width: 190px;
@@ -54,14 +60,23 @@
 	text-align: left;
 }
 
-.welcomebox
+.neighbors-container
 {
-	height: 400px;
-	text-align: center;
+    padding-top: 30px;
+    grid-row: 4;
+    grid-column: 1 / span 2;
+}
+
+.neighbor-box, .updatelog, .messagebox iframe
+{
+    border: var(--default-border);
+    border-radius: var(--default-border-radius);
+}
+
+.neighbor-box, .welcomebox {
 	width: 250px;
 }
 
-.welcomebox span {
-	font-size: smaller;
-	color: Gold;
+.neighbormarquee {
+	margin-right: 20px;
 }
