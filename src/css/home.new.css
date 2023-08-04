@@ -1,0 +1,74 @@
+@import './constants.css';
+
+.main_content 
+{
+    display: grid;
+    grid-auto-flow: row;
+    min-height: 0px;
+    grid-template: 60px 330px 1fr 130px / 1fr 1fr;
+}
+
+.welcome-marquee
+{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.welcomebox
+{
+    grid-row: 2 / span 2;
+    grid-column: 1;
+    overflow-y: scroll;
+}
+
+.messagebox
+{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.updatebox
+{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.updatelog
+{
+	border: dashed;
+	border-width: 1px;
+	display: inline-block;
+	height: 250px;
+	overflow-y: scroll;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	padding-top: 0px;
+	width: 190px;
+}
+.updatelog h4, .updatelog h5
+{
+	color: var(--headers-text);
+	font-size: smaller;
+	line-height: 20%;
+	text-align: center;
+}
+
+.updatelog li
+{
+	color: var(--secondary-text);
+	font-size: smaller;
+	text-align: left;
+}
+
+.neighbors-container
+{
+    padding-top: 30px;
+    grid-row: 4;
+    grid-column: 1 / span 2;
+}
+
+/* .updatelog p
+{
+	color: DarkSeaGreen;
+	font-size: smaller;
+	text-ali

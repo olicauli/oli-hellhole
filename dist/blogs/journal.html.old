@@ -11,11 +11,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/home.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/main.new.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="/css/main.css" rel="stylesheet" type="text/css" media="all"> -->
+    <link href="/css/home.new.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="/css/home.css" rel="stylesheet" type="text/css" media="all"> -->
     <link href="/css/icons.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/animations.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/crt.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="/css/crt.css" rel="stylesheet" type="text/css" media="all"> -->
     <!--<link href="/css/blogs.css" rel="stylesheet" type="text/css" media="all">-->
     
         <link href="/css/scripts.css" rel="stylesheet" type="text/css" media="all">
@@ -58,7 +60,6 @@
     
     <div class="footer">
     <footer>
-        
         <i class="greenline"></i>
         <br>
         

@@ -4,23 +4,6 @@
 /*to be used throughout the entire site.*/
 @import './constants.css';
 
-.enterbox 
-{
-	border: dashed;
-	border-width: 1px;
-	margin-top: 80px;
-	margin-bottom: 30px;
-	padding-left: 75px;
-	padding-right: 75px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	width: 250px;
-	overflow-y: hidden;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .footer
 {
 	margin-left: auto;
@@ -39,6 +22,24 @@
 	line-height: 0px;
 }
 
+.enterbox 
+{
+	border: dashed;
+	border-width: 1px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 250px;
+	/* overflow-y: hidden; */
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .centerbox
 {
 	display: inline-block;
@@ -56,7 +57,7 @@
 
 .centerofpage 
 {
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 	margin-top: 10%;
 }
 
@@ -78,12 +79,11 @@
 .main_content
 {
 	display: inline-block;
-	height: 720px;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
-	overflow-x: hidden;
-	overflow-y: auto;
+	/* overflow-x: hidden; */
+	/* overflow-y: auto; */
 	text-align: center;
 	width: 881px;
 }
