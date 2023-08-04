@@ -127,17 +127,17 @@ header hr
 
 a:visited
 {
-	color: var(--links-visited);
-}
-
-a:active
-{
-	color: var(--links-active);
+	color: var(--links);
 }
 
 a:hover
 {
 	color: var(--links-hover);
+}
+
+a:active
+{
+	color: var(--links-visited);
 }
 
 body
