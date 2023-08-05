@@ -120,6 +120,15 @@ header hr
     max-width: 100%;
 }
 
+.todo-section 
+{
+	width: 500px;
+	max-width: 80%;
+	border: var(--default-border);
+	border-radius: var(--default-border-radius);
+	margin: 0 auto;
+}
+
 .small
 {
 	font-size: smaller;
@@ -167,7 +176,7 @@ ul
     list-style-image: url('/assets/images/star-empty2.gif');
 }
 
-li
+ol, li
 {
 	color: var(--headers-text);
 }
