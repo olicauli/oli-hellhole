@@ -2,6 +2,7 @@ name: Deploy to neocities
 
 # only run on changes to main. Use main or master depending on whatever your default branch is called.
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
