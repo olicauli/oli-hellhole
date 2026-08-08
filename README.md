@@ -3,10 +3,10 @@
 an early 2000s themed personal website written using HTML, CSS, and a tiny amount of javascript.
 jekyll is used to generate static site pages.
 
-### table of contents
+## table of contents
 
 1. [access the website](#access-the-website)
-2. [set up for testing](#set-up-the-website-for-testing-on-your-machine)
+2. [set up for testing](#set-up-for-testing)
 3. [deployment](#deployment)
 4. [support](#support)
 5. [license](#license)
