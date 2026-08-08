@@ -21,7 +21,7 @@ jobs:
     # Set up any tools and build steps here
     - uses: ruby/setup-ruby@v1 
       with: 
-        ruby-version: '4.0.5'
+        # ruby-version: '4.0.5'
         bundler-cache: true # runs bundle install and caches installed gems
     # If you have a different build process, replace this with your own build steps
     - name: Install deps and build
