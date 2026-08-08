@@ -6,10 +6,11 @@ jekyll is used to generate static site pages.
 ## table of contents
 
 1. [access the website](#access-the-website)
-2. [set up for testing](#set-up-for-testing)
-3. [deployment](#deployment)
-4. [support](#support)
-5. [license](#license)
+2. [set up for development](#set-up-for-development)
+3. [building the site](#building-the-site)
+4. [deployment](#deployment)
+5. [support](#support)
+6. [license](#license)
 
 ## access the website
 
@@ -17,27 +18,36 @@ this website is currently being hosted on neocities:
 
 <https://olicauli.neocities.org/>
 
-## set up for testing
+## set up for development
 
-before proceeding, make sure:
+### set-up
 
-- [ruby](https://www.ruby-lang.org/en/) is installed
-  - a ruby development environment (``ruby-dev`` or ``ruby-devel``) is installed
-- [bundler](https://bundler.io/) is installed
+1. before proceeding, make sure:
+    - [ruby](https://www.ruby-lang.org/en/) is installed
+    - a ruby development environment (``ruby-dev`` or ``ruby-devel``) is installed
+    - [bundler](https://bundler.io/) is installed
+2. clone the repository.
+3. navigate to the root folder for this repo and run the command `bundle install` to install the necessary gems.
 
-to set up:
+the `/src` folder contains all the source code.
 
-1. fork or clone the repo.
-2. navigate to the folder for this repo and run the command `bundle install` to install the necessary gems.
-3. run `bundle exec jekyll serve` in your terminal in the repo's directory.
-4. open `http://localhost:4000` in your browser to access the website.
+### development build
 
-the `src` folder is where all the source code is located. `dist` contains the final compiled files.
+to run a test version of the website, do the following:
+
+1. run `bundle exec jekyll serve` in your terminal in the repo's root directory.
+2. open `http://localhost:4000` in your browser to access the website.
+
+## building the site
+
+1. run `bundle exec jekyll build` in your terminal
+2. the built site files will all be located in the `/dist` folder.
 
 ## deployment
 
-1. run `bundle exec jekyll build` in your terminal
-2. the final files will all be located in the `dist` folder. push that folder to neocities or wherever to deploy the website.
+this repo uses the [Deploy to Neocities github action](https://github.com/marketplace/actions/deploy-to-neocities) to deploy to neocities on any push to the main branch! [this action can also be manually dispatched.](https://github.com/olicauli/oli-hellhole/actions/workflows/deploy.yml)
+
+if this method of deployment does not work for you, you can [build](#build) the `/dist` folder and upload the files inside that folder manually or using a neocities cli tool.
 
 ## support
 
